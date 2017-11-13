@@ -20,6 +20,6 @@ Gem::Specification.new do |s|
   # Gem dependencies
   s.add_runtime_dependency "logstash-core", ">= 1.4.0", "< 6.0.0"
   s.add_runtime_dependency "logstash-codec-plain"
-  s.add_runtime_dependency "nsq-ruby", ">= 2.0.0"
+  s.add_runtime_dependency "nsq-ruby", ">= 2.1.0"
   s.add_development_dependency "logstash-devutils"
 end
